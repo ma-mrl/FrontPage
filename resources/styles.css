@@ -1,0 +1,151 @@
+/* Universal styles */
+
+html {
+    font-size: 18px;
+    font-family: "Slabo 27px", monospace;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'Ultra', serif;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+main {
+    position: relative;
+    top: 2cqmin;
+}
+
+/* Header styles */
+
+header {
+    top: 0px;    
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid black;
+    z-index: 1;
+    background-color: black;
+}
+
+header #logo a {
+    font-family: 'Ultra', serif;
+    text-decoration: none;
+    margin: auto 15px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav li a {
+    margin: auto 15px;
+    text-decoration: none;
+    color: white;
+}
+
+/* About section styles */
+
+#about {
+    width: 100%;
+    height: 22rem;
+    text-align: center;
+    background-image: url('/resources/images/banner-background.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+#about a {
+    color: #fff;
+}
+
+#about h1 {
+    margin-bottom: 3px;
+}
+
+#about p {
+    margin: 2px;
+}
+
+/* Products section style */ 
+
+#products {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+#item-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.item img {
+    height: 16rem;
+    padding: 15px;
+}
+
+/* Team section styles */
+
+#team {
+    background-image: url('/resources/images/employees-background.png');
+    width: 100%;
+    height: 30rem;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#team-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    width: 9rem;
+}
+
+.teammate {
+    background-color: black;
+    margin: 15px;
+}
+
+.teammate img {
+    height: 16rem;
+    padding: 15px;
+}
+
+/* Footer styles */
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
